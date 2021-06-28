@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <div class="header">
+        <h1>
+            Welcome to Snake and Ladder
+        </h1>
+    </div>
+    <div class="gameArea">
+        <div class="image">
+            <img src="./board-image.jpg" alt="">
+        </div>
+        <div class="information">
+            <p>
+                Player 1 is at: <span id="position1">1</span>
+            </p>
+            <p>
+                Player 2 is at: <span id="position2">1</span>
+            </p>
+            <p>
+                DICE: <span id="dice">0</span>
+            </p>
+            <div>
+                <p id="now-player">
+                    NOW: Player 1
+                </p>
+                <p id="next-player">
+                    NEXT: Player 2
+                </p>
+            </div>
+            <p>
+                Positions player1: <span id="movesPlayer1">1</span>
+            </p>
+            <p>
+                Positions player2: <span id="movesPlayer2">1</span>
+            </p>
+
+
+            <button id="btn">Roll Dice</button>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+
+</body>
+
+</html>

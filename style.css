@@ -1,0 +1,16 @@
+.gameArea {
+  display: grid;
+  grid-template: "board information";
+}
+img {
+  height: 500px;
+}
+.image {
+  grid-area: board;
+}
+.information {
+  grid-area: information;
+}
+p {
+  font-size: 2rem;
+}
