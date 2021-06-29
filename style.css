@@ -1,16 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
 .gameArea {
+  /* border: 1px solid blue; */
   display: grid;
   grid-template: "board information";
 }
-img {
-  height: 500px;
-}
-.image {
+.image,
+.posOverlay {
   grid-area: board;
 }
+
+.posOverlay span {
+  font-size: 1.5em;
+  color: orangered;
+}
+
+img,
+.posOverlay {
+  width: 500px;
+  height: 500px;
+}
+.main-image,
+.posOverlay {
+  display: grid;
+  width: 500px;
+  height: 500px;
+  grid-template-rows: repeat(10, 50px);
+  grid-template-columns: repeat(10, 50px);
+}
+
 .information {
+  /* border: 1px solid green; */
   grid-area: information;
 }
+
 p {
   font-size: 2rem;
 }

@@ -16,40 +16,469 @@
             Welcome to Snake and Ladder
         </h1>
     </div>
-    <div class="gameArea">
-        <div class="image">
-            <img src="./board-image.jpg" alt="">
-        </div>
-        <div class="information">
-            <p>
-                Player 1 is at: <span id="position1">1</span>
-            </p>
-            <p>
-                Player 2 is at: <span id="position2">1</span>
-            </p>
-            <p>
-                DICE: <span id="dice">0</span>
-            </p>
-            <div>
-                <p id="now-player">
-                    NOW: Player 1
-                </p>
-                <p id="next-player">
-                    NEXT: Player 2
-                </p>
-            </div>
-            <p>
-                Positions player1: <span id="movesPlayer1">1</span>
-            </p>
-            <p>
-                Positions player2: <span id="movesPlayer2">1</span>
-            </p>
-
-
-            <button id="btn">Roll Dice</button>
-        </div>
     </div>
-    <script src="./app.js"></script>
+    <div class="grid-container">
+        <div class="gameArea">
+            <div class="image">
+                <div class="main-image">
+                    <img src="./board-image.jpg" alt="">
+                </div>
+            </div>
+            <div class="posOverlay">
+
+                <div id="div100">
+                    <span id="p1"></span>
+                    <span id="p2"></span>
+                </div>
+                <div class="div99">
+                    <span id="p1"></span>
+                    <span id="p2"></span>
+                </div>
+                <div class="div98">
+                    <span id="p1"></span>
+                    <span id="p2"></span>
+                </div>
+                <div class="div97">
+                    <span id="p1"></span>
+                    <span id="p2"></span>
+                </div>
+                <div class="div96">
+                    <span id="p1"></span>
+                    <span id="p2"></span>
+                </div>
+                <div class="div95">
+                    <span id="p1"></span>
+                    <span id="p2"></span>
+                </div>
+                <div class="div94">
+                    <span id="p1"></span>
+                    <span id="p2"></span>
+                </div>
+                <div class="div93">
+                    <span id="p1"></span>
+                    <span id="p2"></span>
+                </div>
+                <div class="div92">
+                    <span id="p1"></span>
+                    <span id="p2"></span>
+                </div>
+                <div class="div91">
+                    <span id="p1"></span>
+                    <span id="p2"></span>
+                </div>
+
+                <div class="div81">
+                    <span id="p1"></span>
+                    <span id="p2"></span>
+                </div>
+                <div class="div82">
+                    <span id="p1"></span>
+                    <span id="p2"></span>
+                </div>
+                <div class="div83">
+                    <span id="p1"></span>
+                    <span id="p2"></span>
+                </div>
+                <div class="div84">
+                    <span id="p1"></span>
+                    <span id="p2"></span>
+                </div>
+                <div class="div85">
+                    <span id="p1"></span>
+                    <span id="p2"></span>
+                </div>
+                <div class="div86">
+                    <span id="p1"></span>
+                    <span id="p2"></span>
+                </div>
+                <div class="div87">
+                    <span id="p1"></span>
+                    <span id="p2"></span>
+                </div>
+                <div class="div88">
+                    <span id="p1"></span>
+                    <span id="p2"></span>
+                </div>
+                <div class="div89">
+                    <span id="p1"></span>
+                    <span id="p2"></span>
+                </div>
+                <div class="div90">
+                    <span id="p1"></span>
+                    <span id="p2"></span>
+                </div>
+
+
+                <div class="div80">
+                    <span id="p1"></span>
+                    <span id="p2"></span>
+                </div>
+                <div class="div79">
+                    <span id="p1"></span>
+                    <span id="p2"></span>
+                </div>
+                <div class="div78">
+                    <span id="p1"></span>
+                    <span id="p2"></span>
+                </div>
+                <div class="div77">
+                    <span id="p1"></span>
+                    <span id="p2"></span>
+                </div>
+                <div class="div76">
+                    <span id="p1"></span>
+                    <span id="p2"></span>
+                </div>
+                <div class="div75">
+                    <span id="p1"></span>
+                    <span id="p2"></span>
+                </div>
+                <div class="div74">
+                    <span id="p1"></span>
+                    <span id="p2"></span>
+                </div>
+                <div class="div73">
+                    <span id="p1"></span>
+                    <span id="p2"></span>
+                </div>
+                <div class="div72">
+                    <span id="p1"></span>
+                    <span id="p2"></span>
+                </div>
+                <div class="div71">
+                    <span id="p1"></span>
+                    <span id="p2"></span>
+                </div>
+
+                <div class="div61">
+                    <span id="p1"></span>
+                    <span id="p2"></span>
+                </div>
+                <div class="div62">
+                    <span id="p1"></span>
+                    <span id="p2"></span>
+                </div>
+                <div class="div63">
+                    <span id="p1"></span>
+                    <span id="p2"></span>
+                </div>
+                <div class="div64">
+                    <span id="p1"></span>
+                    <span id="p2"></span>
+                </div>
+                <div class="div65">
+                    <span id="p1"></span>
+                    <span id="p2"></span>
+                </div>
+                <div class="div66">
+                    <span id="p1"></span>
+                    <span id="p2"></span>
+                </div>
+                <div class="div67">
+                    <span id="p1"></span>
+                    <span id="p2"></span>
+                </div>
+                <div class="div68">
+                    <span id="p1"></span>
+                    <span id="p2"></span>
+                </div>
+                <div class="div69">
+                    <span id="p1"></span>
+                    <span id="p2"></span>
+                </div>
+                <div class="div70">
+                    <span id="p1"></span>
+                    <span id="p2"></span>
+                </div>
+
+
+
+                <div class="div60">
+                    <span id="p1"></span>
+                    <span id="p2"></span>
+                </div>
+                <div class="div59">
+                    <span id="p1"></span>
+                    <span id="p2"></span>
+                </div>
+                <div class="div58">
+                    <span id="p1"></span>
+                    <span id="p2"></span>
+                </div>
+                <div class="div57">
+                    <span id="p1"></span>
+                    <span id="p2"></span>
+                </div>
+                <div class="div56">
+                    <span id="p1"></span>
+                    <span id="p2"></span>
+                </div>
+                <div class="div55">
+                    <span id="p1"></span>
+                    <span id="p2"></span>
+                </div>
+                <div class="div54">
+                    <span id="p1"></span>
+                    <span id="p2"></span>
+                </div>
+                <div class="div53">
+                    <span id="p1"></span>
+                    <span id="p2"></span>
+                </div>
+                <div class="div52">
+                    <span id="p1"></span>
+                    <span id="p2"></span>
+                </div>
+                <div class="div51">
+                    <span id="p1"></span>
+                    <span id="p2"></span>
+                </div>
+
+
+                <div class="div41">
+                    <span id="p1"></span>
+                    <span id="p2"></span>
+                </div>
+                <div class="div42">
+                    <span id="p1"></span>
+                    <span id="p2"></span>
+                </div>
+                <div class="div43">
+                    <span id="p1"></span>
+                    <span id="p2"></span>
+                </div>
+                <div class="div44">
+                    <span id="p1"></span>
+                    <span id="p2"></span>
+                </div>
+                <div class="div45">
+                    <span id="p1"></span>
+                    <span id="p2"></span>
+                </div>
+                <div class="div46">
+                    <span id="p1"></span>
+                    <span id="p2"></span>
+                </div>
+                <div class="div47">
+                    <span id="p1"></span>
+                    <span id="p2"></span>
+                </div>
+                <div class="div48">
+                    <span id="p1"></span>
+                    <span id="p2"></span>
+                </div>
+                <div class="div49">
+                    <span id="p1"></span>
+                    <span id="p2"></span>
+                </div>
+                <div class="div50">
+                    <span id="p1"></span>
+                    <span id="p2"></span>
+                </div>
+
+
+                <div class="div40">
+                    <span id="p1"></span>
+                    <span id="p2"></span>
+                </div>
+                <div class="div39">
+                    <span id="p1"></span>
+                    <span id="p2"></span>
+                </div>
+                <div class="div38">
+                    <span id="p1"></span>
+                    <span id="p2"></span>
+                </div>
+                <div class="div37">
+                    <span id="p1"></span>
+                    <span id="p2"></span>
+                </div>
+                <div class="div36">
+                    <span id="p1"></span>
+                    <span id="p2"></span>
+                </div>
+                <div class="div35">
+                    <span id="p1"></span>
+                    <span id="p2"></span>
+                </div>
+                <div class="div34">
+                    <span id="p1"></span>
+                    <span id="p2"></span>
+                </div>
+                <div class="div33">
+                    <span id="p1"></span>
+                    <span id="p2"></span>
+                </div>
+                <div class="div32">
+                    <span id="p1"></span>
+                    <span id="p2"></span>
+                </div>
+                <div class="div31">
+                    <span id="p1"></span>
+                    <span id="p2"></span>
+                </div>
+
+
+
+                <div class="div21">
+                    <span id="p1"></span>
+                    <span id="p2"></span>
+                </div>
+                <div class="div22">
+                    <span id="p1"></span>
+                    <span id="p2"></span>
+                </div>
+                <div class="div23">
+                    <span id="p1"></span>
+                    <span id="p2"></span>
+                </div>
+                <div class="div24">
+                    <span id="p1"></span>
+                    <span id="p2"></span>
+                </div>
+                <div class="div25">
+                    <span id="p1"></span>
+                    <span id="p2"></span>
+                </div>
+                <div class="div26">
+                    <span id="p1"></span>
+                    <span id="p2"></span>
+                </div>
+                <div class="div27">
+                    <span id="p1"></span>
+                    <span id="p2"></span>
+                </div>
+                <div class="div28">
+                    <span id="p1"></span>
+                    <span id="p2"></span>
+                </div>
+                <div class="div29">
+                    <span id="p1"></span>
+                    <span id="p2"></span>
+                </div>
+                <div class="div30">
+                    <span id="p1"></span>
+                    <span id="p2"></span>
+                </div>
+
+
+                <div class="div20">
+                    <span id="p1"></span>
+                    <span id="p2"></span>
+                </div>
+                <div class="div19">
+                    <span id="p1"></span>
+                    <span id="p2"></span>
+                </div>
+                <div class="div18">
+                    <span id="p1"></span>
+                    <span id="p2"></span>
+                </div>
+                <div class="div17">
+                    <span id="p1"></span>
+                    <span id="p2"></span>
+                </div>
+                <div class="div15">
+                    <span id="p1"></span>
+                    <span id="p2"></span>
+                </div>
+                <div class="div16">
+                    <span id="p1"></span>
+                    <span id="p2"></span>
+                </div>
+                <div class="div14">
+                    <span id="p1"></span>
+                    <span id="p2"></span>
+                </div>
+                <div class="div13">
+                    <span id="p1"></span>
+                    <span id="p2"></span>
+                </div>
+                <div class="div12">
+                    <span id="p1"></span>
+                    <span id="p2"></span>
+                </div>
+                <div class="div11">
+                    <span id="p1"></span>
+                    <span id="p2"></span>
+                </div>
+
+                <div class="div1">
+                    <span id="p1">1</span>
+                    <span id="p2">2</span>
+                </div>
+                <div class="div2">
+                    <span id="p1"> </span>
+                    <span id="p2"> </span>
+                </div>
+                <div class="div3">
+                    <span id="p1"> </span>
+                    <span id="p2"> </span>
+                </div>
+                <div class="div4">
+                    <span id="p1"> </span>
+                    <span id="p2"> </span>
+                </div>
+                <div class="div5">
+                    <span id="p1"> </span>
+                    <span id="p2"> </span>
+                </div>
+                <div class="div6">
+                    <span id="p1"> </span>
+                    <span id="p2"> </span>
+                </div>
+                <div class="div7">
+                    <span id="p1"> </span>
+                    <span id="p2"> </span>
+                </div>
+                <div class="div8">
+                    <span id="p1"> </span>
+                    <span id="p2"> </span>
+                </div>
+                <div class="div9">
+                    <span id="p1"> </span>
+                    <span id="p2"> </span>
+                </div>
+                <div class="div10">
+                    <span id="p1"> </span>
+                    <span id="p2"> </span>
+                </div>
+
+            </div>
+
+
+            <div class="information">
+                <p>
+                    Player 1 is at: <span id="position1">1</span>
+                </p>
+                <p>
+                    Player 2 is at: <span id="position2">1</span>
+                </p>
+                <p>
+                    DICE: <span id="dice">0</span>
+                </p>
+                <div>
+                    <p id="now-player">
+                        NOW: Player 1
+                    </p>
+                    <p id="next-player">
+                        NEXT: Player 2
+                    </p>
+                </div>
+                <p>
+                    Positions player1: <span id="movesPlayer1">1</span>
+                </p>
+                <p>
+                    Positions player2: <span id="movesPlayer2">1</span>
+                </p>
+
+
+                <button id="btn">Roll Dice</button>
+            </div>
+        </div>
+        <!-- <script src="./app.js"></script> -->
+        <script src="./index.js"></script>
+
 
 </body>
 
